@@ -1,0 +1,40 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    color: #444488;
+}
+
+A {
+    color: #444488;
+}
+
+    A:visited {
+        color: #222244;
+    }
+
+header {
+    background-color: #f3e05c;
+    color: #444488;
+}
+
+    header h2 {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    header nav {
+        display: inline-block;
+    }
+
+        header nav a {
+            text-decoration: none;
+        }
+
+header, main, footer {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+h1, h2 {
+    font-weight: lighter;
+}
